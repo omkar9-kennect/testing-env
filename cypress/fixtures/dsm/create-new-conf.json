@@ -1,0 +1,35 @@
+{
+  "displayName": "Product Master dataset 334",
+  "natureItem": "Master",
+  "channel": "Manual & upload",
+  
+  "fieldAttribute":[
+    {
+      "type":"String",
+      "label":"Value"
+    },
+    {
+      "type":"String",
+      "label":"Value"
+    }, {
+      "type":"String",
+      "label":"Value"
+    }
+  ],
+  "fieldMapping": [
+    {
+      "field": "@records ",
+      "key": "key_dumm1"
+    },
+    {
+      "field": "__sku code",
+      "key": "key_dummy2"
+    },
+    {
+      "field": "#BU",
+      "key": "key_dummy3"
+    }
+  ],
+  "buField":"key_dumm1",
+  "datasetMode":"Bulk add"
+}
